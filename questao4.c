@@ -15,7 +15,7 @@ int main(){
     for(int i = 1; i <= altura; i++){
         //Nesse trecho, ele printa o espacamento conforme a minha altura atual,
         //que no caso seria o i
-        for(int j = 1; j <= meio - i; j++){
+        for(int j = 1; j <= meio - i+ 1; j++){
             printf(" ");
         }
 
